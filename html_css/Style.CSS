@@ -1,0 +1,34 @@
+body{ 
+    font-family: "Khmer", sans-serif;
+    background-color: white;
+    font-size:30px;
+}
+.profile-area{
+    max-width: 550px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border-top: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+dl{
+    margin-top: 20px;
+    text-align: left;
+}
+dt{
+    font-weight: bold;
+    margin-top: 10px;
+    color: #2c3c2c;
+}
+. h1{
+    text-align: center;
+    border: 0cqmin;
+}
+.profile-img{
+    display: black;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
