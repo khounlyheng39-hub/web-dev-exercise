@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="my_favorite_form.CSS">
+</head>
+<body>
+    <script src="my_favorite_form.js"></script>
+    <main class="container">
+    <h1>Add a New favorite food</h1>
+    <form action="#" id="favoritefoodForm" method="post" class="card" novalidate>
+    <div class="form-row">
+        <label for="title">favorite food</label>
+        <input type="text" id="title" name="title" required/>
+        <span id="titleError" class="error"></span>
+    </div>
+    <fieldset class="form-row">
+        <legend>Taste</legend>
+        <div class="radios">
+            <label><input type="radio" name="type" value="Sweet" />Sweet</label>
+            <label><input type="radio" name="type" value="Spicy" />Spicy</label>
+            <label><input type="radio" name="type" value="Salty" />Salty</label>
+            <span id="tasteError" class="error"></span>
+        </div>
+    </fieldset>
+    <input type="date" id="start_date" name="start_date" />
+    <span id="startDateError" class="error"></span>
+
+    <div class="form-row">
+        <label for="Country">Country</label>
+        <select id="Country" name="Country" required>
+            <option value="" selected disabled>Choose a Country</option>
+            <option>Khmer</option>
+            <option>american</option>
+            <option>Italy</option>
+        </select>
+        <span id="CountryError" class="error" ></span>
+    </div>
+    
+    <div class="form-row">
+        <lable for="ingredient">ingredient</lable>
+        <textarea id="ingredient" name="ingredient" rows="5" placeholder="1-3 sentence about the story..." required maxlength="50"></textarea>
+        <small class="hint">Keep it concise (max~300 characters)</small>
+        <span id="ingredientError" class="error" ></span>
+    </div>
+    <div class="aaction">
+        <button type="submit">Save</button>
+        <button type="reset" class="secondary">Clear</button>
+    </div>
+
+    
+
+    </form>
+    
+    </main>
+</body>
+</html>
