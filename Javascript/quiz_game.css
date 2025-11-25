@@ -1,0 +1,16 @@
+.choices button{
+    padding: 10px;
+    display: block;
+    margin: auto;
+    background-color:greenyellow ;
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+
+}
+body{
+    text-align: center;
+}
+.question {
+    font-size: larger;
+}
